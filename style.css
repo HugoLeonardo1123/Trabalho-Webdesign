@@ -1,0 +1,287 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.menu{
+   margin: 0;
+   top: 0;
+   width: 100%;
+   z-index: 999;
+}
+
+.navbar{
+    background-color: #413020;
+}
+
+.menu ul{
+    padding-right: 5rem;
+}
+
+.menu img{
+    padding-left: 5rem;
+}
+
+#navbarSupportedContent a{
+    font-size: 20px;
+    padding-left: 15px;
+    align-items: center;
+}
+
+#navbarSupportedContent a:hover{
+    color: rgb(227, 252, 10);
+}
+
+/***** End Banner *****/
+.banner img{
+margin-top: 5rem;
+}
+
+/***** Parte Sobre *****/
+
+.sobre{
+    background-color: #301802; 
+    width: 100%;
+    height: 100%; 
+}
+
+.sobre strong{
+    font-size: 40px;
+    color: #DEBC8E; 
+}
+
+.sobre p{
+    font-size: 16px;
+    text-align: justify;
+    color: #fff;
+}
+
+.imgsobre{
+    text-align: center;
+}
+
+/***** Parte Cursos *****/
+
+.cursos{
+background-color: #D9D9D9;
+}
+
+.cursos .card p{
+    text-align: center;
+}
+
+.cursos .card .card-body{
+    background-color: #AA916D;
+}
+
+/***** O que sera aprendido *****/
+
+
+.ensinamentos{
+    background-image: url(imagens/imagem-aprendizado.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ensinamentos .aqui h2{
+        text-align: center; 
+}
+
+.ensinamentos img{
+    height: 20px;
+    width: 20px;
+}
+
+.ensinamentos .card{
+    background-color: #000000c5;
+}
+.ensinamentos .card p{
+    color: white;
+    text-align: justify;
+    font-size: 15px;
+}
+.ensinamentos .card h5{
+    text-align: center;
+    color: #F6B830;        
+}
+
+   /***** Segurança *****/
+
+.seguranca{
+    background-color: #D9D9D9;
+}
+.seguranca h2{
+    text-align: center;
+}
+
+.seguranca .card {
+    background-color: #D9D9D9;
+    align-items: center;
+   
+}
+
+.seguranca .card img{
+    width: 130px;
+}
+
+.seguranca .card h5{
+    text-align: center;
+    font-size: 27px;
+    color: #8F5A2A;
+}
+
+.seguranca .card p{
+    text-align: center;
+    font-size: 15px;
+}
+
+/***** Instrutores *****/
+
+.instrutores{
+    background-color: #AA916D;
+}
+
+.instrutores h2{
+   text-align: center;   
+}
+
+.instrutores .card{
+    background-color: #F5F1F1;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.instrutores .card img{
+    width: 130px;
+    margin-top: 15px;
+    
+}
+
+
+/***** Preços *****/
+
+.precos{
+    background-image: url(imagens/imagem-preco.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#overlau{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.685);
+    width: 100%;
+    height: 100%;
+}
+
+.precos .teste{
+    position: relative;
+}
+
+.precos .card{
+    background-color: #220f0f9f;
+    border-color: #6E7B1B;   
+}
+
+.teste h2{
+    color: white;
+    text-align: center;
+ }
+
+ .precos .card h5{
+    font-size: 16px;
+    color: #F6B830;
+ }
+
+.precos p{
+    margin: 0;
+    padding: 0;
+}
+.precos .card-header{
+    border-color: #6E7B1B;
+    font-size: 18px;
+}
+
+ .card a{
+    max-width: 200px;
+    max-height: 40px;
+    margin-top: 15px;
+}
+
+
+/***** Seja socio *****/
+
+.sejasocio{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.sejasocio .card{
+    border: none;
+}
+
+.sejasocio .card p{
+    font-size: 2em;
+    margin: 0px;
+}
+
+
+/***** Eventos *****/
+
+.eventos .card{
+    background-color: #AA916D;
+    
+    border-color: black;
+}
+
+.eventos .card h5{
+    color: #ffffff;
+}
+
+
+/***Eventos***/
+
+.galeria{
+    background-color: #D7D3D3;
+}
+
+
+/***Footer***/
+
+.footer{
+    background-color: #574739;
+}
+
+.redessociais img{
+    max-width: 64px;
+    max-height: 39px;
+    padding: 4px;
+}
+.redessociais a{
+    text-decoration: none;
+}
+.redessociais h4{
+    padding-top: 5rem;
+}
+
+.form-group{
+    text-align: left;
+}
+
+.footer .form-group label{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+
+
